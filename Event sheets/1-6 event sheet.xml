@@ -30,7 +30,7 @@
         <event-block sid="151838772517974">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="600216290340528" type="Mario">
-                    <param id="0" name="Object">flag</param>
+                    <param id="0" name="Object">Cano</param>
                 </condition>
             </conditions>
             <actions>

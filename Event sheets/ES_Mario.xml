@@ -95,27 +95,17 @@
         <event-block sid="179223818419224">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="990415392751888" type="System" />
-                <condition id="-11" name="For Each" sid="225566461151362" type="System">
-                    <param id="0" name="Object">TiledBackground14</param>
-                </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Create object" sid="590851578510930" type="System">
-                    <param id="0" name="Object to create">Moeda</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">TiledBackground14.X</param>
-                    <param id="3" name="Y">TiledBackground14.Y</param>
-                </action>
                 <action id="-16" name="Wait" sid="463527272676964" type="System">
                     <param id="0" name="Seconds">0.5</param>
                 </action>
-                <action id="-9" name="Destroy" sid="530990659060239" type="TiledBackground14" />
             </actions>
         </event-block>
         <event-block sid="407887929179746">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="142063470385659" type="Mario">
-                    <param id="0" name="Object">flag</param>
+                    <param id="0" name="Object">Cano</param>
                 </condition>
             </conditions>
             <actions>

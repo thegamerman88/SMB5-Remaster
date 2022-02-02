@@ -55,7 +55,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Custom</prop>
+        <prop name="Preview browser">NW.js</prop>
         <prop name="Sampling">Point</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -69,10 +69,6 @@
                     </behavior-type>
                 </behaviors>
                 <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
-            </object-type>
-            <object-type name="TiledBackground14" sid="275226494208421">
-                <plugin id="TiledBg" />
-                <texture original-source="C:\Users\mateus holanda\Pictures\images.png" />
             </object-type>
             <object-type name="Pedraa" sid="652007511680544">
                 <plugin id="TiledBg" />
@@ -126,14 +122,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245154433406103" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="flag" sid="500383185167772">
+            <object-type name="Cano" sid="500383185167772">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651433100154866" speed="5">
@@ -273,7 +269,7 @@
             </object-type>
         </object-folder>
         <object-folder name="BG">
-            <object-type name="BG11" sid="752229370888678">
+            <object-type name="Montanhas" sid="752229370888678">
                 <plugin id="TiledBg" />
                 <texture />
             </object-type>
@@ -286,7 +282,7 @@
                 </behaviors>
                 <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
             </object-type>
-            <object-type name="TiledBackground15" sid="748314220484052">
+            <object-type name="Deserto" sid="748314220484052">
                 <plugin id="TiledBg" />
                 <behaviors>
                     <behavior-type name="Anchor" sid="815927007066504">
@@ -295,30 +291,22 @@
                 </behaviors>
                 <texture original-source="C:\Users\mateus holanda\Pictures\11_smm2_smb3_desert_day1.png" />
             </object-type>
-            <object-type name="BGGELO" sid="117664619641491">
+            <object-type name="MontanhasDeGelo" sid="117664619641491">
                 <plugin id="TiledBg" />
                 <behaviors>
                     <behavior-type name="Anchor" sid="354168749765077">
                         <behavior id="Anchor" />
                     </behavior-type>
                 </behaviors>
-                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+                <texture original-source="C:\Users\Leonardo\OneDrive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Background.png" />
             </object-type>
-            <object-type name="TiledBackground18" sid="773740482393801">
+            <object-type name="Ceu" sid="773740482393801">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
             </object-type>
-            <object-type name="TiledBackground19" sid="805806364071548">
+            <object-type name="Floresta" sid="805806364071548">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\mateus holanda\Pictures\forest_day2.png" />
-            </object-type>
-            <object-type name="TiledBackground24" sid="256666866250396">
-                <plugin id="TiledBg" />
-                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
-            </object-type>
-            <object-type name="TiledBackground26" sid="449941217405822">
-                <plugin id="TiledBg" />
-                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
             </object-type>
         </object-folder>
         <object-folder name="Menu">
