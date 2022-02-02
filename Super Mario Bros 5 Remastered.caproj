@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Super Mario Bros 5 Remastered</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>36j9l4akx5jhc</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Jorge Popoca" id="PlatformPlus" version="1.5">PlatformPlus</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="PlayLive" id="Textbox_Plus" version="1.00999999">Plus</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>960</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>introloading</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Nothing (not recommended)</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Custom</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Objetos">
+            <object-type name="Pipe" sid="482360572783957">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="804692905069962">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+            </object-type>
+            <object-type name="TiledBackground14" sid="275226494208421">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\mateus holanda\Pictures\images.png" />
+            </object-type>
+            <object-type name="Pedraa" sid="652007511680544">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="369635810370106">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+            </object-type>
+            <object-type name="Chao" sid="640609649927636">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="663607971363076">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+            </object-type>
+            <object-type name="Moving_Platform" sid="162929514468204">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="506740126720552">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                    <behavior-type name="Jumpthru" sid="446603023676972">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Coisas (Mario 1).png" />
+            </object-type>
+            <object-type name="ChaoUG" sid="823309721562909">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="688493568838586">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+            </object-type>
+            <object-type name="PedraUG" sid="214559409118373">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="540857921714133">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+            </object-type>
+            <object-type name="Moeda" sid="350209276677631">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245154433406103" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="flag" sid="500383185167772">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651433100154866" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Coisas (Mario 1).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bandeira" sid="597593093089883">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451023711021852" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CGC" sid="732386200377717">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="631247751445732">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="870838354169875" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CGB" sid="797786182585260">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893206032712755" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Paleta.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CBB34" sid="843264953585705">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="Gelo" sid="975679204638453">
+                <plugin id="Tilemap" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="135937272331904">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture />
+                <tiles>
+                    <tile id="0">
+                        <collision-poly>
+                            <point x="0.015625" y="0.015625" />
+                            <point x="0.984375" y="0.015625" />
+                            <point x="0.984375" y="0.984375" />
+                            <point x="0.015625" y="0.984375" />
+                        </collision-poly>
+                    </tile>
+                </tiles>
+            </object-type>
+        </object-folder>
+        <object-folder name="Global">
+            <object-type name="Audio" sid="575056504174524">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="Keyboard" sid="226730238368082">
+                <plugin id="Keyboard" />
+            </object-type>
+            <object-type name="Mouse" sid="123699724116225">
+                <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Gamepad" sid="993154010880129">
+                <plugin id="gamepad" />
+            </object-type>
+            <object-type name="LocalStorage" sid="763320961786622">
+                <plugin id="LocalStorage" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Player">
+            <object-type name="Mario" sid="496867613213438">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="ScrollTo" sid="510959230716676">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="PlatformPlus" sid="685211263800022">
+                        <behavior id="PlatformPlus" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="ID_IDLE" pingpong="0" repeatcount="1" repeatto="0" sid="453152068038779" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Pessoal (Mario 1).png">
+                            <collision-poly>
+                                <point x="0.1875" y="0.0625" />
+                                <point x="0.8125" y="0.0625" />
+                                <point x="0.8125" y="0.96875" />
+                                <point x="0.1875" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="ID_WALK" pingpong="0" repeatcount="1" repeatto="0" sid="589761501212590" speed="7">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.1875" y="0.0625" />
+                                <point x="0.8125" y="0.0625" />
+                                <point x="0.8125" y="0.96875" />
+                                <point x="0.1875" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.1875" y="0.0625" />
+                                <point x="0.8125" y="0.0625" />
+                                <point x="0.8125" y="0.96875" />
+                                <point x="0.1875" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.1875" y="0.0625" />
+                                <point x="0.8125" y="0.0625" />
+                                <point x="0.8125" y="0.96875" />
+                                <point x="0.1875" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ID_JUMP" pingpong="0" repeatcount="1" repeatto="0" sid="755495597121795" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\Qual Mario-\Mario\Smb1\Pessoal (Mario 1).png">
+                            <collision-poly>
+                                <point x="0.1875" y="0.0625" />
+                                <point x="0.8125" y="0.0625" />
+                                <point x="0.8125" y="0.96875" />
+                                <point x="0.1875" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="BG">
+            <object-type name="BG11" sid="752229370888678">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="BGMENU" sid="398199033564597">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="461121166925561">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+            </object-type>
+            <object-type name="TiledBackground15" sid="748314220484052">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="815927007066504">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\mateus holanda\Pictures\11_smm2_smb3_desert_day1.png" />
+            </object-type>
+            <object-type name="BGGELO" sid="117664619641491">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="354168749765077">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+            </object-type>
+            <object-type name="TiledBackground18" sid="773740482393801">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+            </object-type>
+            <object-type name="TiledBackground19" sid="805806364071548">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\mateus holanda\Pictures\forest_day2.png" />
+            </object-type>
+            <object-type name="TiledBackground24" sid="256666866250396">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+            </object-type>
+            <object-type name="TiledBackground26" sid="449941217405822">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\mateus holanda\Pictures\36_3ds_smb_ground.png" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Menu">
+            <object-type name="Button" sid="372832710417151">
+                <plugin id="Button" />
+                <behaviors>
+                    <behavior-type name="Plus" sid="276692159454183">
+                        <behavior id="Textbox_Plus" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="LogoSMB" sid="143390689734821">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="708836429735821">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="650894667186575" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thegamerman88\Meu Drive\Construct_2_Files\Sprites\sheets\smb.png">
+                            <collision-poly>
+                                <point x="0.00568182" y="0.0113636" />
+                                <point x="0.994318" y="0.0113636" />
+                                <point x="0.994318" y="0.988636" />
+                                <point x="0.00568182" y="0.988636" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CFG" sid="824484393017554">
+                <plugin id="Button" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="672640034749417">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="CC" sid="994381021550654">
+                <plugin id="Button" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="710236302009690">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="ControlesSel" sid="637212555003101">
+                <plugin id="Button" />
+                <instance-variables>
+                    <instance-variable name="controle" sid="943068795515386" type="number" />
+                </instance-variables>
+            </object-type>
+        </object-folder>
+        <object-folder name="Textos">
+            <object-type name="Texto1" sid="884768074364483">
+                <plugin id="Spritefont2" />
+                <instance-variables>
+                    <instance-variable name="ID" sid="449269246696680" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Anchor" sid="725221161125233">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture />
+            </object-type>
+            <object-type name="Texto2" sid="719020986095669">
+                <plugin id="Spritefont2" />
+                <instance-variables>
+                    <instance-variable name="ID" sid="538362534754862" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Fade" sid="808940464328507">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                    <behavior-type name="Anchor" sid="492838203916851">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture />
+            </object-type>
+            <object-type name="Texto3" sid="774290527765951">
+                <plugin id="Spritefont2" />
+                <instance-variables>
+                    <instance-variable name="ID" sid="548064595730255" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Fade" sid="500859940276242">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                    <behavior-type name="Anchor" sid="907663873678383">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-folder name="Configurações">
+            <object-type name="VolumeSel" sid="741678771082818">
+                <plugin id="sliderbar" />
+                <behaviors>
+                    <behavior-type name="Anchor" sid="541312150497870">
+                        <behavior id="Anchor" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+        </object-folder>
+        <object-type name="TiledBackground20" sid="436976907933465">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\mateus holanda\Documents\Lightshot\Screenshot_23.png" />
+        </object-type>
+        <object-type name="TiledBackground21" sid="882145471845271">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout-folder name="Intro">
+            <layout>introloading.xml</layout>
+        </layout-folder>
+        <layout-folder name="Menu">
+            <layout-folder name="Configurações">
+                <layout-folder name="controle">
+                    <layout>Controles.xml</layout>
+                </layout-folder>
+                <layout>Configuracoes.xml</layout>
+            </layout-folder>
+            <layout>menu.xml</layout>
+        </layout-folder>
+        <layout-folder name="Fases">
+            <layout>1-1.xml</layout>
+            <layout>1-2.xml</layout>
+            <layout>1-3.xml</layout>
+            <layout>1-4.xml</layout>
+            <layout>1-5.xml</layout>
+            <layout>1-6.xml</layout>
+        </layout-folder>
+    </layout-folder>
+    <event-folder>
+        <event-folder name="Functions">
+            <event-sheet>ES_Mario.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Fases">
+            <event-sheet>1-1 event sheet.xml</event-sheet>
+            <event-sheet>1-2 event sheet.xml</event-sheet>
+            <event-sheet>1-3 event sheet.xml</event-sheet>
+            <event-sheet>1-4 event sheet.xml</event-sheet>
+            <event-sheet>1-5 event sheet.xml</event-sheet>
+            <event-sheet>1-6 event sheet.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Menu">
+            <event-folder name="Configurações">
+                <event-folder name="controles">
+                    <event-sheet>controles.xml</event-sheet>
+                </event-folder>
+                <event-sheet>Configuracoes.xml</event-sheet>
+            </event-folder>
+            <event-sheet>menu event sheet.xml</event-sheet>
+        </event-folder>
+        <event-folder name="intro">
+            <event-sheet>introloading.xml</event-sheet>
+        </event-folder>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Mouse" uid="21" />
+        <global-instance type="Audio" uid="117">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Gamepad" uid="126">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
+        <global-instance type="LocalStorage" uid="251" />
+    </global-instances>
+    <sounds-folder>
+        <sound-folder name="Music">
+            <file name="smb_Overworld.ogg" />
+        </sound-folder>
+        <file name="yt1s.com - Athletic Theme 8 Bit Chain Link Charge Super Mario 3D World (online-audio-converter.com).ogg" />
+        <file name="yt1s.com - Super Mario 3D Land Snow Overworld 8 Bit (online-audio-converter.com).ogg" />
+        <file name="New super mario bros 2 - forest theme 8bit (online-audio-converter.com).ogg" />
+        <file name="yt1s.com - Super Mario Bros 3 Underworld Theme (online-audio-converter.com).ogg" />
+        <file name="Overworld_8_Bit_-_Super_Mario_3D_Land (online-audio-converter.com).ogg" />
+        <file name="yt1s.com - Super Mario 3D Land title screen 8bit (online-audio-converter.com).ogg" />
+        <file name="yt1s.com - Conkdor Canyon 8Bit Cover Super Mario 3D World_64kbps (online-audio-converter.com).ogg" />
+        <file name="yt1s.com - 8Bit Beach Theme Super Mario 3D Land_64kbps (online-audio-converter.com).ogg" />
+        <file name="smb_coin.ogg" />
+        <file name="smb_jump-small.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

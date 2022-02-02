@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>1-3 event sheet</name>
+    <events>
+        <include>ES_Mario</include>
+        <event-block sid="401678076797505">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="844633503506379" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="757427693334624" type="Audio">
+                    <param id="0" name="Audio file">yt1s.com - Athletic Theme 8 Bit Chain Link Charge Super Mario 3D World (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">5</param>
+                    <param id="1" name="Tag (optional)">&quot;1-3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="302326977025214">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="359984993434271" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="232791226253609" type="Audio">
+                    <param id="0" name="Tag">&quot;1-3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

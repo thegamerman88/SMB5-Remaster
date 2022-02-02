@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menu event sheet</name>
+    <events>
+        <event-block sid="219517009637186">
+            <conditions>
+                <condition id="0" name="On clicked" sid="959583021098165" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="760209837613921" type="System">
+                    <param id="0" name="Layout">1-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230362713071131">
+            <conditions>
+                <condition id="0" name="On clicked" sid="750872039080348" type="CFG" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="161343431745681" type="System">
+                    <param id="0" name="Layout">Configuracoes</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="366285429326334">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="635095735097068" type="System" />
+                <condition id="5" inverted="1" name="Is tag playing" sid="421868506847278" type="Audio">
+                    <param id="0" name="Tag">&quot;menu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="817183580474138" type="Audio">
+                    <param id="0" name="Audio file">yt1s.com - Super Mario 3D Land title screen 8bit (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

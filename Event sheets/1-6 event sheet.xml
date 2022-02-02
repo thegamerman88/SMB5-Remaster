@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>1-6 event sheet</name>
+    <events>
+        <include>ES_Mario</include>
+        <event-block sid="342627529138194">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="576014766824217" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="901801880083890" type="Audio">
+                    <param id="0" name="Audio file">New super mario bros 2 - forest theme 8bit (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">5</param>
+                    <param id="1" name="Tag (optional)">&quot;1-6&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="678865795424888">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="976589894320091" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="307704366555548" type="Audio">
+                    <param id="0" name="Tag">&quot;1-6&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="151838772517974">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="600216290340528" type="Mario">
+                    <param id="0" name="Object">flag</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="780405414401501" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

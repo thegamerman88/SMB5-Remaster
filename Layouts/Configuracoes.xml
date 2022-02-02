@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>Configuracoes</name>
+    <sid>472414422686510</sid>
+    <event-sheet>Configuracoes</event-sheet>
+    <size>
+        <width>960</width>
+        <height>480</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>1</unbounded-scrolling>
+    <layers>
+        <layer name="BG" sid="630798234782313">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="BGMENU" uid="142">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>None</top-edge>
+                                <right-edge>Window right</right-edge>
+                                <bottom-edge>Window bottom</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>-288</y>
+                        <z>0</z>
+                        <width>960</width>
+                        <height>1024</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Configuracoes" sid="909153970710060">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Texto1" uid="182">
+                    <properties>
+                        <character-width>16</character-width>
+                        <character-height>16</character-height>
+                        <character-set>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;↑←↓→</character-set>
+                        <text>Volume</text>
+                        <scale>1</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>0</character-spacing>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <ID></ID>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window bottom</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="VolumeSel" uid="245">
+                    <properties>
+                        <value>0</value>
+                        <minimum>-60</minimum>
+                        <maximum>0</maximum>
+                        <step>1</step>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <id-optional></id-optional>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window bottom</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>424</y>
+                        <z>0</z>
+                        <width>248</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="CFG" uid="256">
+                    <properties>
+                        <type>Button</type>
+                        <text>menu</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>16</x>
+                        <y>16</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="CC" uid="262">
+                    <properties>
+                        <type>Button</type>
+                        <text>mudar controles</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window right</left-edge>
+                                <top-edge>Window bottom</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>752</x>
+                        <y>400</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances />
+    <effects />
+</c2layout>
